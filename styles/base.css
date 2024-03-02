@@ -14,16 +14,26 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
 }
 
 header h1 {
-    margin-bottom: 10px; /* Adjust spacing */
+    margin: 0 auto; /* Adjust spacing */
 }
 
 header img {
     width: 100px;
     border-radius: 10%;
+    margin-right: 10px;
+}
+
+header span {
+    margin-left: 10px; 
 }
 
 nav {
@@ -43,11 +53,18 @@ nav ul {
 
 nav ul li {
     margin-bottom: 10px; /* Adjust spacing */
+    padding: 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #444; 
 }
 
 main {
@@ -74,7 +91,8 @@ main {
 /* Add a media query to adjust the layout for smaller screens */
 @media (max-width: 767px) {
     nav ul {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -83,6 +101,15 @@ main {
     nav ul {
         flex-direction: row; /* Display items side by side */
     }
+}
+
+nav ul li {
+    margin: 0 10px; /* Adjust margin to create space between menu items */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+}
+
+nav ul li a {
+    font-size: 18px; /* Increase font size for larger screens */
 }
 
 /* Style the section cards */
