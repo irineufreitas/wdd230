@@ -1,0 +1,11 @@
+/* larger.css */
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+
+    .card:first-child {
+        grid-column: span 2; /* Make the first card span two columns */
+    }
+}

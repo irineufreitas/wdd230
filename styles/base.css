@@ -1,0 +1,102 @@
+/* base.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+header img {
+    width: 100px;
+    border-radius: 10%;
+}
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Add a media query to adjust the layout for smaller screens */
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+    }
+}
+
+/* Add a media query to adjust the layout for larger screens */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row; /* Display items side by side */
+    }
+}
+
+/* Style the section cards */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border */
+    margin-bottom: 20px; /* Add margin between cards */
+}
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Two columns, where the first one takes twice as much space as the second one */
+    }
+
+}
