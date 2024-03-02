@@ -93,10 +93,20 @@ main {
     margin-bottom: 20px; /* Add margin between cards */
 }
 
+@media (max-width: 767px) {
+    main {
+        display: block; /* Change to block layout for smaller screens */
+    }
+}
+
+/* Add a media query to adjust the layout for larger screens */
 @media (min-width: 768px) {
     main {
         display: grid;
         grid-template-columns: 2fr 1fr; /* Two columns, where the first one takes twice as much space as the second one */
+        grid-gap: 20px; /* Add gap between cards */
     }
-
+    h1 {
+        grid-column: span 2; /* Make the title span both columns */
+    }
 }
