@@ -8,18 +8,17 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbedff;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #dbedff;
+    color: #0f0505;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
-    
-
 }
 
 header h1 {
@@ -41,6 +40,7 @@ nav {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    font-weight: bold;
 }
 
 nav ul {
@@ -57,15 +57,51 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    transition: background-color 0.3s;
-    font-size: 16px;
+    /*transition: background-color 0.3s;
+    font-size: 16px;*/
 }
 
-nav ul li a:hover {
-    background-color: #444; 
+
+.navigation a:hover {
+    background-color: #333;
+    color: white;
+    padding: 20px;
 }
+
+
+/* Style the navigation menu */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the menu items horizontally */
+}
+
+.navigation ul li {
+    margin: 0 10px; /* Adjust margin to create space between menu items */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Style the active menu item */
+.navigation ul li a.active {
+    background-color: #333; /* Change background color to indicate active state */
+}
+
+/* Style the hover effect */
+.navigation ul li a:hover {
+    background-color: #333; /* Change background color when hovered */
+}
+
 
 main {
     max-width: 1200px;
