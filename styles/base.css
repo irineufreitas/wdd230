@@ -1,186 +1,122 @@
-/* base.css */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #dbedff;
-}
-
-header {
-    background-color: #dbedff;
-    color: #0f0505;
-    padding: 20px;
+.box-header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    
 }
-
-header h1 {
-    margin: 0 auto; /* Adjust spacing */
-}
-
 header img {
     width: 100px;
-    border-radius: 10%;
-    margin-right: 10px;
-}
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    box-shadow: 1px 1px 10px black;
+    
 
+    
+}
 header span {
-    margin-left: 10px; 
+    
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    margin-left: 20px;
+
 }
 
-nav {
-    background-color: #666;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    font-weight: bold;
+.parent {
+    
+    margin: 5px;
+    
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-nav ul li {
-    margin-bottom: 10px; /* Adjust spacing */
-    padding: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    /*transition: background-color 0.3s;
-    font-size: 16px;*/
-}
-
-
-.navigation a:hover {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-}
-
-
-/* Style the navigation menu */
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Center align the menu items horizontally */
-}
-
-.navigation ul li {
-    margin: 0 10px; /* Adjust margin to create space between menu items */
-    padding: 10px 20px; /* Adjust padding for better spacing */
-}
-
-.navigation ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s; /* Smooth transition effect */
-}
-
-/* Style the active menu item */
-.navigation ul li a.active {
-    background-color: #333; /* Change background color to indicate active state */
-}
-
-/* Style the hover effect */
-.navigation ul li a:hover {
-    background-color: #333; /* Change background color when hovered */
-}
-
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    gap: 20px;
-}
-
 .card {
-    background-color: #fff;
-    padding: 20px;
+    border: 1px solid #1b5c7c;
+    background-color: #50C4ED;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 600;
 }
 
 .card h2 {
-    background-color: #333;
-    color: #fff;
+    background-color: #387ADF;
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 14px;
+    text-align: center;
+}
+
+main h1 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.card ul {
     padding: 10px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: #333A73;
+    
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-style: bold;
+    text-align: center;
+    color: white;
+    
+    margin: auto;
+    
+    
+
 }
 
 
-/* Add a media query to adjust the layout for smaller screens */
-@media (max-width: 767px) {
-    nav ul {
-        flex-direction: column;
-        justify-content: center;
-    }
+nav a:hover {
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #FBA834;
+    color: black;
+
 }
 
-/* Add a media query to adjust the layout for larger screens */
-@media (min-width: 768px) {
-    nav ul {
-        flex-direction: row; /* Display items side by side */
-    }
-}
-
-nav ul li {
-    margin: 0 10px; /* Adjust margin to create space between menu items */
-    padding: 10px 20px; /* Adjust padding for better spacing */
-}
-
-nav ul li a {
-    font-size: 18px; /* Increase font size for larger screens */
-}
-
-/* Style the section cards */
-.card {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc; /* Add border */
-    margin-bottom: 20px; /* Add margin between cards */
-}
-
-@media (max-width: 767px) {
-    main {
-        display: block; /* Change to block layout for smaller screens */
-    }
-}
-
-/* Add a media query to adjust the layout for larger screens */
-@media (min-width: 768px) {
-    main {
-        display: grid;
-        grid-template-columns: 2fr 1fr; /* Two columns, where the first one takes twice as much space as the second one */
-        grid-gap: 20px; /* Add gap between cards */
-    }
-    h1 {
-        grid-column: span 2; /* Make the title span both columns */
-    }
+header {
+    background-color: #FBA834;
 }
 
 footer {
-    background-color: #333; /* Set background color */
-    color: #fff; /* Set text color */
-    padding: 20px; /* Add padding for content spacing */
-    text-align: center; /* Align content to center */
-    position: fixed; /* Fix footer position */
-    bottom: 0; /* Align footer to the bottom of the viewport */
-    left: 0; /* Align footer to the left edge */
-    width: 100%; /* Set footer width to fill the viewport */
+    
+    padding: 20px;
+    background-color: #333A73;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: auto;
+}
+
+#lastModified {
+    font-size: 14px;
+    color: #FBA834;
+    font-weight: 600;
+    
 }
