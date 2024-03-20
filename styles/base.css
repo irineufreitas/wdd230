@@ -39,6 +39,19 @@ header span {
     content: "x";
 }
 
+#darkMode.open::before {
+    content: "🙎🏼‍♂️";
+}
+
+h2.dark {
+    color: white;
+}
+.dark {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
 .parent {
     
     margin: 5px;
@@ -158,4 +171,14 @@ footer {
 
 .rockstar {
     display: none;
+}
+
+#darkMode {
+    position: absolute;
+    top: 1rem;right: 1rem;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #FBA834;
 }
