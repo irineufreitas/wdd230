@@ -10,9 +10,9 @@
     <meta name="description" content="WDD 230 - Web Frontend Development, Irineu de Freitas Junior, course assignment portal">
     <meta name="author" content="Irineu de Freitas Junior">
     <meta property="og:title" content="The Best City in the World">
-    <meta property="og:type" content=" Website">
+    <meta property="og:Type" content="Website">
     <meta property="og:image" content="https://londrinando.com/images/uploads/posts/25072019174813_2019-07-25-capa2.webp">
-    <meta property="og:card" content="https://irineufreitas.github.io/wdd230/">
+    <meta property="og:url" content="https://irineufreitas.github.io/wdd230/">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
 
@@ -34,10 +34,14 @@
         </div>
     
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Chamber</a>
-            <a href="#">Site Plan</a>
-            <a href="#">Form</a>
+            <button id="myButton"></button>
+            <div class="rockstar">
+                <a href="#">Home</a>
+                <a class="current-menu-item" href="#">Chamber</a>
+                <a href="#">Site Plan</a>
+                <a href="#">Form</a>
+            </div>
+            
         </nav>
     </header>
     <main>
@@ -73,7 +77,7 @@
     </footer>
     
     <script src="scripts/getDates.js"></script>
-    <!-- <script src="scripts/scripts.js"></script> -->
+    <script src="scripts/scripts.js"></script>
     
 </body>
 </html>
