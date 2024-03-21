@@ -12,7 +12,7 @@ main, footer {
     background-image: linear-gradient(
     rgba(34, 40, 49, 0.5), 
     rgba(118, 171, 174, 0.5)),
-    url('images/pompei-chamber-hero.webp');
+    url('https://cdn.britannica.com/91/189391-050-EFC45253/Mount-Vesuvius-ruins-Pompeii.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
