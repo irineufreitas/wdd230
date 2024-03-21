@@ -8,6 +8,9 @@ main, footer {
     padding: 10px;
 }
 
+.fakeone {
+    display: none;
+}
 .hero-image {
     background-image: linear-gradient(
     rgba(34, 40, 49, 0.5), 
