@@ -1,0 +1,66 @@
+@media only screen and (min-width: 38rem) {
+
+    /* .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    } */
+
+    /* .card {
+        box-shadow: 1px 2px 10px black;
+    }  */
+/* 
+    .Menu, .Menu.open {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+        
+    } */
+    .Menu, .Menu.open {
+        display: grid;
+        grid-template-columns: 200px 100px 1fr 1fr 1fr 1fr;
+        row-gap: -10px;
+        
+        
+        
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo1 {
+        display: inline-block;
+        width: 150px;
+        object-fit: contain;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #myButton {
+        display: none;
+    }
+
+    nav a {
+        flex: 3;
+
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .ads {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    
+}
