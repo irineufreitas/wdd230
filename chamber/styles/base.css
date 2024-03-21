@@ -12,7 +12,7 @@ main, footer {
     background-image: linear-gradient(
     rgba(34, 40, 49, 0.5), 
     rgba(118, 171, 174, 0.5)),
-    url('/chamber/images/pompei-chamber-hero.webp');
+    url('images/pompei-chamber-hero.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
