@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+
+    <link rel="stylesheet" href="/week03/styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Page Activity</h1>
+
+    </header>
+    <main>
+        <div class="images">
+            <img loading="lazy" src="/week03/images/horizon1.jpg" alt="Horizon 1" width="400" height="600">
+            <img loading="lazy" src="/week03/images/horizon2.jpg" alt="Horizon 2" width="400" height="600">
+            <img loading="lazy" src="/week03/images/horizon3.jpg" alt="Horizon 3" width="400" height="600">
+            <img loading="lazy" src="/week03/images/horizon4.jpg" alt="Horizon 4" width="400" height="600">
+            <img loading="lazy" src="/week03/images/horizon5.jpg" alt="Horizon 5" width="400" height="600">
+            <img loading="lazy" src="/week03/images/horizon6.jpg" alt="Horizon 6" width="400" height="600">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Irineu de Freitas Junior, Brazil/Parana 🇧🇷</p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
