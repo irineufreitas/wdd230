@@ -182,3 +182,42 @@ footer {
     background-color: white;
     border: #FBA834;
 }
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    background: radial-gradient(#FBA834, #333A73);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 13px;
+    box-shadow: 0 0 3rem;
+    opacity: 0.6;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Roboto", serif;
+}
+
+.maps {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    
+    
+}
