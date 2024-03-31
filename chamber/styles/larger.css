@@ -77,5 +77,10 @@
         object-fit: cover;
     }
 
+    .container img:hover{
+        opacity: 0.8;
+
+    }
+
 
 }
