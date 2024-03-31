@@ -41,3 +41,7 @@ function displayVisitMessage() {
 
   // Call the function when the page loads
   displayVisitMessage();
+
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+document.getElementById('lastModified').textContent = document.lastModified;
