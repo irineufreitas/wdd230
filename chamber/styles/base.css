@@ -8,7 +8,16 @@ main, footer {
     padding: 10px;
 }
 
+.container {
+    color: white;
+    padding-left: 8px;
+}
 
+.container img {
+    width: 600px;
+    
+    object-fit: cover;
+}
 
 .hero-image {
     background-image: linear-gradient(
