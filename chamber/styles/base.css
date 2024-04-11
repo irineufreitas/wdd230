@@ -164,3 +164,44 @@ footer {
    background-color: #76ABAE;
    color: black;
 }
+
+.main-join {
+    
+    padding: 80px;
+    text-align: center;
+    color: white;
+    
+}
+
+.h1-join {
+    vertical-align: middle;
+}
+.main-join input {
+    padding: 12px;
+} */
+
+.main-join form div {
+    margin-bottom: 20px;
+}
+
+.main-join form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-join form input[type="text"],
+.main-join form input[type="email"],
+.main-join form input[type="tel"],
+.main-join form select,
+.main-join form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.main-join form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
