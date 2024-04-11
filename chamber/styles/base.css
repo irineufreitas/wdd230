@@ -205,3 +205,17 @@ footer {
 .main-join form textarea {
     resize: vertical; /* Allow vertical resizing of textarea */
 }
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
