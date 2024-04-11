@@ -1,42 +1,11 @@
-const hamburgerElement = document.querySelector('#myButton');
-const navElement = document.querySelector('.rockstar');
-
-
-hamburgerElement.addEventListener('click', () => {
-    navElement.classList.toggle('open');
-    hamburgerElement.classList.toggle('open')
-});
-
-
-const darkFeature = document.querySelector('#darkMode');
-const main = document.querySelector('main');
-
-
-darkFeature.addEventListener('click', ()=> {
-    main.classList.toggle('dark');
-});
-
-const visitsDisplay = document.querySelector(".visits");
-
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
-
-if (numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
-} else {
-    visitsDisplay.textContent = `You are the first visit. Welcome!`;
-}
-
-numVisits++;
-localStorage.setItem("numVisits-ls", numVisits);
-
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?'; // Base URL for the Current Weather API
 
-const latitude = -23;
-const longitude = -51;
+const latitude = 49.74991478041749;
+const longitude = 6.637578267619603;
 
 // API key
 const apiKey = '9e230d3576f759836a3f9cddddfe63d7';

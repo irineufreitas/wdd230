@@ -1,0 +1,34 @@
+#cards h2 {
+    color: rgb(48, 48, 245);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr; /* Initially, one column */
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+#cards section {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(181, 227, 227);
+}
+
+/* Media query for screens narrower than 600px (adjust as needed) */
+@media screen and (min-width: 600px) {
+    #cards {
+        grid-template-columns: 1fr 1fr; /* Two columns */
+    }
+}
+
+/* Media query for screens narrower than 900px (adjust as needed) */
+@media screen and (min-width: 900px) {
+    #cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Four columns */
+    }
+}

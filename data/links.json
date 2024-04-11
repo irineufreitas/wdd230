@@ -1,0 +1,89 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holy Grail"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM-25"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "BOM Week03"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/irineufreitas/pen/gOyvRKb",
+                    "title": "CodePen Pseudo"
+                },
+                {
+                    "url": "images/exercise.png",
+                    "title": "Combinators Exercise"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build "
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/irineufreitas/pen/yLrjdaB",
+                    "title": "Marker"
+                },
+                {
+                    "url": "https://irineufreitas.github.io/wdd230/week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
