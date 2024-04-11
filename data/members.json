@@ -1,0 +1,68 @@
+{
+    "companies": [
+      {
+        "name": "TechSolutions Inc.",
+        "address": "123 Main Street, Suite 100, Anytown, USA",
+        "phone": "+1 (123) 456-7890",
+        "website": "https://www.techsolutions.com",
+        "image": "techsolutions.png",
+        "membership_level": "Gold",
+        "additional_info": "Leading provider of IT solutions for businesses."
+      },
+      {
+        "name": "EcoFriendly Foods",
+        "address": "456 Elm Avenue, Greenvale, USA",
+        "phone": "+1 (987) 654-3210",
+        "website": "https://www.ecofriendlyfoods.com",
+        "image": "ecofriendlyfoods.jpg",
+        "membership_level": "Silver",
+        "additional_info": "Sustainable and organic food supplier."
+      },
+      {
+        "name": "Fashion Trends Boutique",
+        "address": "789 Oak Street, Fashion City, USA",
+        "phone": "+1 (555) 123-4567",
+        "website": "https://www.fashiontrendsboutique.com",
+        "image": "fashiontrends.jpg",
+        "membership_level": "Bronze",
+        "additional_info": "Trendy clothing and accessories store."
+      },
+      {
+        "name": "GreenThumb Landscaping",
+        "address": "321 Maple Drive, Greenfield, USA",
+        "phone": "+1 (222) 333-4444",
+        "website": "https://www.greenthumblandscape.com",
+        "image": "greenthumb.png",
+        "membership_level": "Bronze",
+        "additional_info": "Professional landscaping services for residential and commercial properties."
+      },
+      {
+        "name": "HealthFirst Gym",
+        "address": "567 Pine Street, Healthville, USA",
+        "phone": "+1 (777) 888-9999",
+        "website": "https://www.healthfirstgym.com",
+        "image": "healthfirstgym.jpg",
+        "membership_level": "Gold",
+        "additional_info": "State-of-the-art fitness center with personal training services."
+      },
+      {
+        "name": "Creative Minds Advertising",
+        "address": "987 Cedar Lane, Creativity City, USA",
+        "phone": "+1 (444) 555-6666",
+        "website": "https://www.creativemindsadvertising.com",
+        "image": "creativeminds.jpg",
+        "membership_level": "Silver",
+        "additional_info": "Innovative advertising agency specializing in digital marketing."
+      },
+      {
+        "name": "BlueWave Tech Solutions",
+        "address": "654 Oakwood Avenue, Tech Town, USA",
+        "phone": "+1 (888) 999-0000",
+        "website": "https://www.bluewavetechsolutions.com",
+        "image": "bluewave.png",
+        "membership_level": "Gold",
+        "additional_info": "Cutting-edge technology solutions provider for businesses."
+      }
+    ]
+  }
+  
